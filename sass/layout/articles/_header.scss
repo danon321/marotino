@@ -1,0 +1,63 @@
+.header{
+    background-color: white;
+    color: $articles-font-color;
+    position: relative;
+    &__content{
+        font-size: 36px;
+        align-items: center;
+        display: flex;
+        padding-bottom: 200px;
+        padding-top: 315px;
+        margin: 0 auto;
+        max-width: 1700px;
+        width: 100%;
+        &--items{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly; 
+            & h1{
+                font-size: 2.6em;
+                font-weight: 900;
+                margin-bottom: 30px;
+                @media (max-width: 1689px){
+                    font-size: 2em;
+                }
+                @media (max-width: 1024px){
+                    font-size: 1.5em;
+                }
+                @media (max-width: 400px){
+                    font-size: 1.2em;
+                }
+            }
+            & p{
+                width: 68%;
+                font-size: 1em;
+                font-weight: 300;
+                line-height: 1.44;
+                @media (max-width: 1689px){
+                    font-size: 0.7em;
+                }
+                @media (max-width: 1024px){
+                    font-size: 0.55em;
+                }
+                @media (max-width: 786px){
+                    width: 90%;
+                }
+            }
+        }
+        @media only screen and (max-width: 1689px){
+            padding-top:200px;
+            padding-bottom:146px;
+        }
+        @media only screen and (max-width: 1024px){
+            padding-top:120px;
+            padding-bottom:50px;
+        }
+    }
+    @media only screen and (max-width: 786px){
+        padding-top:0px;
+        height: auto;
+    }
+}
+

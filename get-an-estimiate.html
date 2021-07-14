@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-contact.css">
+    <title>Marotino</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content element__padding element__width">
+            <nav class="content__navigation">
+                <div class="nav__logo">
+                    <a href="/">
+                        <img class="nav__logo--img" src="images/marotino-logo.png" alt="Marotino brand logo">
+                    </a>
+                </div>
+                <a class="content__navigation--back" href="/">
+                    <img class="content__navigation--back-arrow" src="images/arrowBlack.svg" alt="Arrow icon for back to homepage">
+                </a>
+            </nav>
+            <div class="content__contact">
+                <div class="content__contact--information">
+                    <div class="content__contact--information-details">
+                        <p>
+                            Sales:
+                            <span>email@email.com</span>
+                        </p>
+                        <p>
+                            United States:
+                            <span>+1 786 605 0087</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="content__contact--form">
+                    <div class="content__contact--form-container">
+                        <h2>Want to build something great?</h2>
+                        <p>You’ve found the right people. Tell us about your project. We will get back to you within 24 hours.</p>
+                        <form class="contact-form" action="">
+                            <div class="contact-form__text-input">
+                                <label class="contact-form__label">E-mail address</label>
+                                <input type="email" class="form__input--email" placeholder="e.g. john.doe@example.com">
+                            </div>
+                            <div class="contact-form__text-input">
+                                <label class="contact-form__label">Full name</label>
+                                <input type="text" class="form__input--name" placeholder="e.g. John Doe">
+                            </div>
+                            <div class="contact-form__text-input optional">
+                                <label class="contact-form__label">Phone number</label>
+                                <input type="tel" placeholder="e.g. (555) 555-5555">
+                            </div>
+                            <div class="contact-form__checkbox-input optional">
+                                <label class="contact-form__label">Project type</label>
+                                <div class="form__checkbox--container">
+                                    <div class="form__checkbox--option" id="WebApps">
+                                        <span>
+                                            <input type="checkbox" name="WebApps">
+                                            <span></span>
+                                        </span>
+                                        <img src="images/WebApps.svg" alt="">
+                                        <label for="WebApps">Web Application</label>
+                                    </div>
+                                    <div class="form__checkbox--option" id="MobileApps">
+                                        <span>
+                                            <input type="checkbox" name="MobileApps">
+                                            <span></span>
+                                        </span>
+                                        <img src="images/MobileApps.svg" alt="">
+                                        <label for="MobileApps">Mobile Application</label>
+                                    </div>
+                                    <div class="form__checkbox--option" id="Design">
+                                        <span>
+                                            <input type="checkbox" name="Design">
+                                            <span></span>
+                                        </span>
+                                        <img src="images/Design.svg" alt="">
+                                        <label for="Design">Design</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form__policy">
+                                <span tabindex="1">
+                                    <input class="form__input--policy" type="checkbox" name="Policy">
+                                    <span></span>
+                                </span>
+                                <label for="Policy">
+                                    I have read and accept the <a href="">Privacy and Cookie Files Policy </a>
+                                </label>
+                            </div>
+                            <div class="contact-form__button">
+                                <button type="submit" class="form__submit button">SEND</button>
+                                <div class="user-message">
+                                    <span class="user-message-text"></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__container element__width element__padding">
+            <div class="footer__content">
+                <div class="footer__content--articles footer__content--element">
+                    <a href="web-development.html">Web Development</a>
+                    <a href="mobile-development.html">Mobile Development</a>
+                    <a href="product-design.html">Product Design</a>
+                    <a href="product-development.html">Product Development</a>
+                </div>
+                <div class="footer__content--contact footer__content--element">
+                    <div class="footer__contact--adres">
+                        <h6>United States</h6>
+                        <address>
+                            907 Burlingame Ave Suite 9<br>
+                            Burlingame, CA 94010<br>
+                        </address>
+                        <a href="tel:+17866050087">
+                            +1 786 605 0087
+                        </a>
+                        <a href="mailto:email@email.com">
+                            email@email.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__media">
+                <a href="/">
+                    <img class="nav__logo--img" src="images/marotino-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__rate element__width element__width element__padding">
+            <a href="">
+                <p><strong>Rated 5.1</strong> for Custom Software development, UX/UI design and Web development</p>
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.4.1.min.js"></script> 
+    <script src="scripts/scripts-contact.js"></script> 
+</body>
+</html>

@@ -1,0 +1,55 @@
+.policy{
+    &__container{
+        color: #323640;
+        max-width: 1125px;
+        margin: 292px auto 0 auto;
+        @media (max-width: 767px){
+            margin: 100px auto 0 auto;
+        }
+        & h1{
+            padding-bottom: 50px;
+            font-weight: 800;
+            line-height: 74px;
+            font-size: 64px;
+            @media (max-width: 767px){
+                font-weight: 800;
+                line-height: 46px;
+                font-size: 42px;
+                padding-bottom: 25px;
+            }
+        }
+        & h2{
+            padding-bottom: 40px;
+            padding-top: 40px;
+            font-weight: 800;
+            line-height: 52px;
+            font-size: 36px;
+            @media (max-width: 767px){
+                padding-bottom: 10px;
+                padding-top: 10px;
+                line-height: 36px;
+                font-size: 32px;
+            }
+        }
+        & p{
+            line-height: 38px;
+            font-size: 22px;
+            @media (max-width: 767px){
+                line-height: 22px;
+                font-size: 16px;
+            }
+        }
+        & ul{
+            list-style:circle;
+            padding-left:20px;
+            & li{
+                line-height: 38px;
+                font-size: 22px;
+                @media (max-width: 767px){
+                    line-height: 22px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

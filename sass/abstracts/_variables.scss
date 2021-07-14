@@ -1,0 +1,74 @@
+$breakpoints: (
+    'phone': 320px, 
+    'tablet': 768px, 
+    'desktop': 1024px
+) !default;
+// TYPOGRAPHY///////////////////////////////////////////////////////////////
+$base-font-size: 16px;
+$base-line-height: 24px;
+$rhythm-unit: "rem";
+
+
+// Font families
+$base-font-family: "Averta Standard", sans-serif;
+$alt-font-family: "Domine", Georgia, sans-serif;
+
+// Setup modular-scale
+$ms-base: 1em;
+
+//COLORS
+$basic-color:#0f4c82;
+$basic-hover-color:#1362a9;
+$basic-granit:#c3cad9;
+$darker-grey:#99a5bf;
+
+$articles-font-color:#323640;
+$header-background-color:#2d3440;
+$header-navigation-bgcolor:white;
+$header-font-color:white;
+$button-color:$basic-color;
+$button-hover-color:$basic-hover-color;
+$button-after-scrol:#2d3440;
+$s-1-seemore-color:$basic-color;
+$s-2-bg-color:$basic-color;
+$s-2-bg-hover-color:$basic-hover-color;
+$footer-email-color:$basic-color;
+$footer-article-hover:$basic-color;
+
+$type-scale: (
+  tiny: (
+    font-size: ms(-2),
+    base-lines: 0.5
+  ),
+  small: (
+    font-size: ms(-1),
+    base-lines: 0.75
+  ),
+  base: (
+    font-size: ms(0),
+    base-lines: 1
+  ),
+  medium: (
+    font-size: ms(0),
+    base-lines: 1
+  ),
+  large: (
+    font-size: ms(1),
+    base-lines: 1
+  ),
+  xlarge: (
+    font-size: ms(2),
+    base-lines: 1.35
+  ),
+  xxlarge: (
+    font-size: ms(3),
+    base-lines: 1.75
+  )
+);
+
+// Headings
+#{h1, h2, h3, h4, h5} {
+  color: gray(15%);
+  font-family: $base-font-family;
+  font-weight: 700;
+}

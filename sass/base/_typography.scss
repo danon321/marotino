@@ -1,0 +1,14 @@
+
+html {
+	font-size: $base-font-size;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	font-family: $base-font-family;
+}
+
+@font-face{
+	font-family:'Averta Standard';
+	src: url('../fonts/averta-standard.ttf')
+}

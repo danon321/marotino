@@ -1,0 +1,105 @@
+.header{
+    background-color: $header-background-color;
+    color:$header-font-color;
+    position: relative;
+    &__content{
+        font-size: 36px;
+        align-items: center;
+        display: flex;
+        padding-bottom: 200px;
+        padding-top: 315px;
+        margin: 0 auto;
+        max-width: 1700px;
+        width: 100%;
+        &--items{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly; 
+            & h1{
+                font-size: 2.6em;
+                font-weight: 900;
+                margin-bottom: 25px;
+                @media (max-width: 1689px){
+                    font-size: 2em;
+                }
+                @media (max-width: 1024px){
+                    font-size: 1.5em;
+                }
+            }
+            & p{
+                width: 68%;
+                font-size: 1em;
+                font-weight: 300;
+                line-height: 1.44;
+                @media (max-width: 1689px){
+                    font-size: 0.7em;
+                }
+                @media (max-width: 1024px){
+                    font-size: 0.55em;
+                }
+                @media (max-width: 786px){
+                    width: 90%;
+                }
+            }
+        }
+        @media only screen and (max-width: 1689px){
+            padding-top:200px;
+            padding-bottom:146px;
+        }
+        @media only screen and (max-width: 1024px){
+            padding-top:120px;
+            padding-bottom:50px;
+        }
+    }
+    @media only screen and (max-width: 786px){
+        padding-top:0px;
+        height: auto;
+    }
+}
+.header__video{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    @media (max-width: 767px){
+        background-position: center top;
+        background-size: auto;
+    }
+    &--mobile{
+        background-image: url("./images/hero-image.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        @media (max-width: 767px){
+            background-position: center top;
+            background-size: auto;
+            display: block;
+        }
+    }
+    & video{
+        @media (max-width: 767px){
+            display: none;
+        }
+    }
+}
+#background-video {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.25;
+    min-width: 100%; 
+    // min-height: 100%;
+    height: 100%;
+    object-fit: cover;
+    // opacity: 0.25;
+    // position: absolute;
+    // width: 100%;
+  }

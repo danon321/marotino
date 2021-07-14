@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-articles.css">
+    <title>Marotino - Web Development</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__video">
+            <div class="header__video--mobile"></div>
+        </div>
+        <div class="header__nav-wrapper">
+            <nav class="header__nav element__padding element__width">
+                <div class="nav__logo">
+                    <a href="/">
+                            <img class="nav__logo--img" src="images/marotino-logo.png" alt="Marotino brand logo">
+                        </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span class="hamburger__container" tabindex="-1"> 
+                                <span class="hamburger__bars hamburger__bars--scrol"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="header__nav--menu">
+                    <a href="/">
+                        <div class="header__nav--menu-element"><span>Home</span>
+                        </div>
+                    </a>
+                    <a href="blog">
+                        <div class="header__nav--menu-element"><span>Blog</span>
+                        </div>
+                    </a>
+                </div>
+                <a class="button menu-article__button" href="get-an-estimate"><span>Get on Estimate</span></a>
+            </nav>
+            <div class="header__nav--mobile">
+                <div class="header__nav--mobile-content">
+                    <a href="/">Home</a>
+                    <a href="blog">Blog</a>
+                    <a href="get-an-estimate">Get on Estimate</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content" class="site-content element__padding element__width element__padding-top">
+        <div <?php post_class( 'content-holder center-relative content-1300'); ?> 
+            <article <?php post_class(); ?>
+                <div class="post-wrapper center-relative p">
+                    <div class="single-content-wrapper content-1170 center-relative ">
+                        <h1 class="entry-title">Positioning SEO shop in a web-based platform Magento</h1>
+                        <div class="center-text">
+                            <ul class="entry-info">
+                                <li class="author-nickname-holder">
+                                    <div class="entry-info-text">
+                                        AUTHOR
+                                    </div>
+                                    <div class="author-nickname">
+                                        <a href="https://marotino.com/author/admin23534/" title="Posts by admin23534" rel="author">admin23534</a>
+                                    </div>
+                                </li>
+                                <li class="entry-date-holder">
+                                    <div class="entry-info-text">
+                                        DATE
+                                    </div>
+                                    <div class="entry-date published">
+
+                                        30/03/2020
+
+                                    </div>
+                                </li>
+                                <li class="cat-links-holder">
+                                    <div class="entry-info-text">
+
+                                        CATEGORY
+
+                                    </div>
+                                    <div class="cat-links-wrapper">
+                                        <ul class="cat-links">
+                                            <li>
+                                                <a href="https://marotino.com/category/bez-kategorii/">Bez kategorii</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="num-comments-holder">
+                                    <div class="entry-info-text">
+                                        COMMENTS
+                                    </div>
+                                    <div class="num-comments">
+                                        <a href="https://marotino.com/positioning-seo-shop-bed-in-a-web-based-platform-magento/#respond">No Comments</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="entry-content">
+
+                            <p>SEO&nbsp;positioning&nbsp;of online stores based on the Magento platform are actions aimed at increasing the quality of organic traffic obtained from search engines, e.g. Google, which will translate into a real increase in product sales and thus increase the store’s revenue.&nbsp;The US&nbsp;e-commerce&nbsp;market&nbsp;is constantly growing, tens of thousands of online stores are already operating on the US Internet.&nbsp;However, the current Senuto report shows that only 15.5% of online stores based on known platforms, conduct SEO activities and thus generate more than 500 visits per month.&nbsp;&nbsp;&nbsp;</p>
+
+                            <p>
+                                Magento 2 is the latest solution from Adobe, which is available in 3 versions: free Magento Open Source and two commercial versions of Magento Commerce and Magento Commerce Cloud (version with hosting).&nbsp;Magento is very popular around the world.&nbsp;The platform is used by such global brands as Nike, Coca Cola, Ford, Fred Perry, G2A, Castorama which proves how powerful Magento is.&nbsp;The article discusses the basic capabilities and functionalities of Magento 2 Open Source.&nbsp;The older version of Magento 1 is still a great platform, but it will be supported by Adobe only until June 2020.
+                            </p>
+
+                            <h2> <strong>Friendly URLs in Magento</strong></h2>
+
+                            <p>Magento 2 includes support for friendly URLs that can be set from the admin panel in the&nbsp;<strong>STORES&nbsp;</strong>section&nbsp;<strong>-&gt; Configuration -&gt; Catalog -&gt;&nbsp;Catalog -&gt; Search engine optimization&nbsp;</strong>.&nbsp;There are 2 fields responsible for friendly URLs: Product URL Suffix and Category URL Suffix.&nbsp;It is recommended to delete their content because the suffixes in the form of extensions.&nbsp;html&nbsp;have no positive impact on SEO, just unnecessarily lengthen URLs.&nbsp;It is worth implementing this change only if you are just starting to configure your store.&nbsp;Otherwise, after removing the suffix, you will need to set 301 redirects from the old addresses to the new ones.&nbsp;It is also worth changing the&nbsp;”&nbsp;<em>Use category paths for products”&nbsp;</em>option&nbsp;to NO, so as not to lengthen the already long product card URLs.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                            <p>
+                                Friendly URLs can also be modified directly in the editing of the product category or in the section&nbsp;”&nbsp;<em>Search
+                                Engine Optimization” (search engine optimization),&nbsp;</em>in the fields&nbsp;”&nbsp;<em>URL
+                                Key”&nbsp;</em>/&nbsp;”&nbsp;<em>key
+                                URL”&nbsp;</em>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                            <h2><strong>Meta title tags</strong></h2>
+
+                            <p>
+                                Meta titles are a very important element of SEO optimization because they have a very large impact on how a given subpage will rank in search results.&nbsp;Magento 2 allows you to optimize the meta title both globally for the entire store, as well as for each of the individual products and categories separately.</p>
+
+                            <p>Global changes can be made in the&nbsp;<strong>CONTENT&nbsp;</strong>section&nbsp;<strong>-&gt; Appearance -&gt; Configuration -&gt; Default Store View -&gt; Other -&gt;&nbsp;HTML</strong>&nbsp;<strong>header&nbsp;</strong>, where we can define:&nbsp;&nbsp;</p>
+
+                            <p>
+                                –&nbsp;Default Page Title
+                                <br>– Page Title Prefix
+                                <br>– Page Title Suffix (title meta suffix)</p>
+
+                            <p> Meta titles can also be modified directly in the edition of a given product or category in the&nbsp;”&nbsp;<em>Search Engine Optimization”&nbsp;</em>section<em>.</em>&nbsp;</p>
+
+                            <p> We change the title of the main page and other static pages in the&nbsp;<strong>CONTENT&nbsp;</strong>section&nbsp;<strong>-&gt; Elements -&gt; Pages -&gt; Search engine optimization</strong>.&nbsp;</p>
+
+                            <h2>
+                                <strong>Meta
+                                description</strong></h2>
+
+                            <p> When creating meta descriptions, try to make them draw the user’s attention.&nbsp;It is also worth including the content of “Call To Action”, which will additionally motivate buyers to enter your website.&nbsp;Meta description in Magento 2 can be edited from the product, category or static page edition level.&nbsp;Leaving the meta description field blank for categories will completely remove the meta description tag from the store’s source code.&nbsp;In this case, the search engine will download any content on the category page and display it on the server.&nbsp;Lack of meta description added on the product card will result in its drawing from the product description.</p>
+
+                            <p>
+                                We change the meta description for products and categories directly in the&nbsp;
+                                <strong>CATALOG&nbsp;</strong>section&nbsp;<strong>-&gt;
+                                Products / Categories -&gt; Optimization for search engines / Search
+                                Engine Optimization.</strong>&nbsp;</p>
+
+                            <p> We change the meta description for the main page and other static pages in the&nbsp;<strong>CONTENT&nbsp;</strong>section&nbsp;<strong>-&gt; Elements -&gt; Pages -&gt; Search engine optimization</strong>.&nbsp;</p>
+
+                            <h2><strong>Hx headers</strong></h2>
+
+                            <p> Correctly optimized headers will effectively strengthen the categories and product cards of the online store while improving its visibility on Google.&nbsp;Most ready and paid templates that can be used for installation on the Magento 2 platform do not have a properly optimized H1 – H6 header hierarchy.&nbsp;For this reason, these types of optimizations are best done after prior consultation with an SEO specialist and programmer support in implementation.&nbsp;The standard template available in the Magento 2 Open Source platform also does not fully use the potential of using lower-level H2 – H6 headers and, apart from the correct placement of H1, it does not have an extensive hierarchy.</p>
+
+                            <p>
+                                By default, Magento 2 H1 headers are correctly assigned product and category names.</p>
+
+                            <h2><strong>Canonical links</strong></h2>
+
+                            <p>
+                                By default, canonical links are turned off in Magento 2.&nbsp;To reduce the risk of future problems with duplication, as well as the indexation of categories and products in the search engine, it is worth enabling canonicale for both products and store categories.&nbsp;This can be done in the&nbsp;<strong>SHOPS&nbsp;</strong>section&nbsp;<strong>-&gt;
+                                Configuration -&gt; Catalog -&gt;&nbsp;Catalog -&gt; Search engine
+                                optimization&nbsp;</strong>.&nbsp;Then select YES for both variants:&nbsp;&nbsp;</p>
+
+                            <p> –&nbsp;Apply Canonical meta tag for the category -&gt; YES
+                                <br>– Apply Canonical meta tag for the products -&gt; YES<strong>SSL certificate</strong></p>
+
+                            <p>
+                                For online stores, it is extremely important to have an SSL certificate installed, which guarantees transaction security by encrypting sensitive data, such as personal data or credit card information.&nbsp;The implementation of the SSL certificate will also affect the increase of user confidence in our store.&nbsp;We will also avoid unwanted information that may scare off potential customers and which is displayed in the Chrome browser and other popular browsers informing users that the store is unsecured and the connection with it is not secure.
+                            </p>
+
+                            <p>In Magento 2, the SSL certificate installation procedure is very simple.&nbsp;After purchasing and installing the certificate on the server, all you need to do is go to the&nbsp;<strong>SHOPS&nbsp;</strong>section&nbsp;<strong>-&gt; Configuration -&gt; General -&gt; Network -&gt; Base URL (secure)&nbsp;</strong>in the administration panel.&nbsp;Then&nbsp;change the beginning of the address from http: // to https: //&nbsp;in the&nbsp;”&nbsp;<em>Secure base URL”&nbsp;</em>and&nbsp;”&nbsp;<em>Basic secure&nbsp;URL</em>&nbsp;<em>”&nbsp;</em>fields.&nbsp;&nbsp;&nbsp;</p>
+
+                            <p>
+                                It’s also a good idea to enable SSL for the store front-end so that it is opened by https by checking the&nbsp;”&nbsp;<em>Use
+                                secure URL on Storefront”&nbsp;</em>option&nbsp;to YES.&nbsp;In order for the admin panel to also be protected by SSL, the&nbsp;”&nbsp;
+                                <em>Use
+                                secure URLs for admin”&nbsp;</em>option should be set&nbsp;to YES.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                            <p>
+                                Before launching the SSL certificate, be sure to prepare the 301 redirect map and deploy redirects from old addresses to new ones.</p>
+
+                            <h2><strong>Site map</strong></h2>
+
+                            <p>
+                                A properly created sitemap will effectively support store indexation and show search engine robots new product addresses for indexing.&nbsp;To create a site map in XML format in Magento 2, go to&nbsp;<strong>STORES
+                                -&gt; Settings -&gt; Configuration -&gt; Catalog -&gt; Site map
+                                (XML)&nbsp;</strong>.&nbsp;Then we can configure the map update frequency and priorities for products, categories and static pages.&nbsp;Depending on the size of the store and the number of products, these values &#8203;&#8203;should be adjusted individually.&nbsp;</p>
+
+                            <p> In the further part of the view, there are&nbsp;”&nbsp;<em>Map build settings”</em>, where we can configure the time and frequency of map refresh.&nbsp;</p>
+
+                            <p> The next section is&nbsp;”&nbsp;<em>Site Map File Restrictions”</em>, where we can configure the maximum number of URLs for the map file and its maximum size in MB.&nbsp;According to Google’s recommendations, the map file should not contain more than 50,000.&nbsp;URLs and exceed 50 MB.&nbsp;</p>
+
+                            <p>The last section about site map settings is&nbsp;”&nbsp;<em>Engine Search Settings”&nbsp;</em>, where we can add a&nbsp;link&nbsp;with the store map address to the&nbsp;robots.txt&nbsp;file&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                            <p> After you finish configuring the site map, generate it in the&nbsp;<strong>MARKETING -&gt; SEO and search -&gt; Site map section</strong>.&nbsp;The standard file name for the map is sitemap.xml, just enter the trailing slash character in the path.&nbsp;</p>
+
+                            <p>
+                                After clicking on&nbsp;”&nbsp;<em>Save
+                                and generate”&nbsp;</em>we can check the correctness of the map created at the address domain www.domain/sitemap.xml.&nbsp;Finally, you must report the generated store map in Google Search Console.&nbsp;&nbsp;</p>
+
+                            <h2><strong>Content</strong></h2>
+
+                            <p>For online stores, the common phenomenon is external duplication of product content.&nbsp;Many&nbsp;e-commerce&nbsp;companies&nbsp;are unaware of the scale of this phenomenon and the risks it brings.&nbsp;Duplicate content, both external, i.e. those that appear in competitive online stores, as well as internal ones that are reproduced inside the same store, can negatively affect its ranking in Google, and in extreme cases even prevent its positioning.&nbsp;That is why it is so important to take care of unique, valuable and well-optimized content, which, unlike duplicates, will help increase the visibility of the store and generate new organic entries from the search engine for it.&nbsp;&nbsp;</p>
+
+                            <p>
+                                The Magento 2 platform allows you to add content for the following types of subpages:</p>
+
+                            <p>–&nbsp;home page
+                                <br>– product cards (product descriptions and reviews)
+                                <br>– category descriptions
+                                <br>– static pages
+                                <br>–&nbsp;blog&nbsp;(as an extension)&nbsp;&nbsp;</p>
+
+                            <p>If you are wondering if your store has duplicate content that may lower its position in Google search engine, ask us about&nbsp;<strong>SEO Audit</strong>&nbsp;.&nbsp;We carry out external and internal duplication analyzes in online stores and prepare new optimized content that helps in effectively building store visibility.&nbsp;</p>
+
+                            <h2><strong>Positioning Magento&nbsp;</strong>–&nbsp;<strong>additional SEO tips</strong>&nbsp;&nbsp;&nbsp;</h2>
+
+                            <ol>
+                                <li> <strong>Get rid of duplicate home pages –&nbsp;</strong>Magento normally creates a duplicate home page at www.domain.com/index.php.&nbsp;Forward it through 301 to the primary address of your store. </li>
+                                <li> <strong>Configure the robotst.txt file&nbsp;</strong>– set which robots should have access to store resources.&nbsp;Robots.txt settings&nbsp;can be found in the CONTENTS -&gt; Appearance -&gt; Configuration -&gt; Search Engine Robots section. </li>
+                                <li> <strong>Add rich snippets&nbsp;</strong>– Magento 2 offers the option of including extended fragments in the store using ready-made extensions that can be found in both the free and premium versions.&nbsp;Look at https://community.magento.com and https://marketplace.magento.com. </li>
+                                <li> <strong>Improve store loading speed –&nbsp;</strong>Magento 2 is not one of the platforms that boast a high loading speed score in PageSpeed &#8203;&#8203;Insights.&nbsp;However, thoughtful store optimization can significantly improve this result. </li>
+                                <li> <strong>Complete ALTS of photos and pictures –&nbsp;</strong>alternative texts for product photos can be optimized from the admin panel.&nbsp;Just go to the editing section of the product, select the&nbsp;”&nbsp;<em>Photos and Videos”&nbsp;</em>option, then click on the product and enter the content in the&nbsp;”&nbsp;<em>Alternate text&nbsp;</em>”&nbsp;field.&nbsp;&nbsp;&nbsp; </li>
+                            </ol>
+
+                            <h2><strong>Summary: Magento positioning and optimization.</strong></h2>
+
+                            <p>Magento 2 Open Source is certainly a powerful&nbsp;e-commerce platform&nbsp;with countless possibilities that an average online store will not be able to use.&nbsp;However, it is a solution for large stores with a large number of products and web development support.&nbsp;SEO optimization for this platform can be assessed as good.&nbsp;The multitude of ready-made extensions supporting SEO, performance and unlimited possibilities of introducing programming changes also puts it at the forefront of platforms.&nbsp;&nbsp;</p>
+
+                            <p> The optimization tips presented in the article are only the beginning of the changes that should be made so that the store can start to properly rank in the search engine.&nbsp;Most large ecommerce usually also faces many other serious problems, e.g. incorrect information architecture, thin content or problems related to JavaScript.&nbsp;That is why it is so important to conduct an SEO audit that will help to locate the weaknesses of the online store.</p>
+
+                            <p class="has-text-align-right">Team Marotino</p>
+                            <div class="clear"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div id="comments" class="comments-holder">	
+                <div id="comments-wrapper">
+                    <div class="block center-relative content-570">                
+                        <ol class="comments-list-holder">                 
+                                    <li class="comment even thread-even depth-1" id="li-comment-2">
+                    <div id="comment-2" class="single-comment-holder">
+                                            <em>Your comment is awaiting moderation.</em>
+                            <br> <br>
+                        
+                        
+                        <div class="left vcard">
+                            <img alt="" src="https://secure.gravatar.com/avatar/a9b67133edd36952d9cd8c8e5310d9de?s=70&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/a9b67133edd36952d9cd8c8e5310d9de?s=140&amp;d=mm&amp;r=g 2x" class="avatar avatar-70 photo" height="70" width="70">                </div>
+                        <div class="comment-right-holder">
+                            <ul class="comment-author-date-replay-holder">
+                                <li class="comment-author">
+                                    asd                        </li>                         
+                            </ul>
+                            <p class="comment-date">
+                                14/04/2020 - <a rel="nofollow" class="comment-reply-link" href="#comment-2" data-commentid="2" data-postid="39" data-belowelement="-2" data-respondelement="respond" aria-label="Reply to asd">Reply</a>                    </p>				
+                            <div class="comment-text">
+                                <p>asdasd</p>
+                            </div>			
+                        </div>
+                        <div class="clear"></div>
+                    </div>              
+                </li><!-- #comment-## -->
+          
+                        </ol>
+        
+                        <div class="comments-pagination-wrapper top-20 bottom-20">
+                            <div class="comments-pagination">
+                                 
+                            </div>
+                        </div>                                        
+                        <div class="clear"></div>
+                    </div>                           
+                </div>
+                <div class="comment-form-holder"><div class="block center-relative content-570">	<div id="respond" class="comment-respond">
+                    <h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/positioning-seo-shop-bed-in-a-web-based-platform-magento/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://marotino.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><textarea id="comment" placeholder="COMMENT" name="comment" cols="45" rows="12" aria-required="true"></textarea><input id="author" name="author" type="text" placeholder="NAME" value="" size="20">
+            <input id="email" name="email" type="text" placeholder="EMAIL" value="" size="20">
+            <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Save my name and email in this browser for the next time I comment.</label></p>
+            <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="POST COMMENT"> <input type="hidden" name="comment_post_ID" value="39" id="comment_post_ID">
+            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+            </p></form>	</div><!-- #respond -->
+                </div></div>        <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="footer__container element__width element__padding">
+                <div class="footer__content">
+                    <div class="footer__content--articles footer__content--element">
+                        <a href="web-development.html">Web Development</a>
+                        <a href="mobile-development.html">Mobile Development</a>
+                        <a href="product-design.html">Product Design</a>
+                        <a href="product-development.html">Product Development</a>
+                    </div>
+                    <div class="footer__content--contact footer__content--element">
+                        <div class="footer__contact--adres">
+                            <h6>United States</h6>
+                            <address>
+                            907 Burlingame Ave Suite 9<br>
+                            Burlingame, CA 94010<br>
+                        </address>
+                            <a href="tel:+17866050087">
+                            +1 786 605 0087
+                        </a>
+                            <a href="mailto:email@email.com">
+                            email@email.com
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__media">
+                    <a href="/">
+                        <img class="nav__logo--img" src="images/marotino-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__rate element__width element__width element__padding">
+                <a href="">
+                    <p><strong>Rated 5.1</strong> for Custom Software development, UX/UI design and Web development</p>
+                </a>
+            </div>
+        </footer>
+        <script src="scripts/jquery-3.4.1.min.js"></script>
+        <script src="scripts/scripts-article.js"></script>
+</body>
+
+</html>

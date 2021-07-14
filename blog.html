@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-articles.css">
+    <title>Marotino - Mobile Development</title>
+</head>
+    <header class="header">
+        <div class="header__video">
+            <div class="header__video--mobile"></div>
+        </div>
+        <div class="header__nav-wrapper">
+            <nav class="header__nav element__padding element__width">
+                <div class="nav__logo">
+                    <a href="/">
+                        <img class="nav__logo--img" src="<?php echo get_template_directory_uri(); ?>/images/marotino-logo.png" alt="Marotino brand logo">
+                    </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span class="hamburger__container" tabindex="-1"> 
+                            <span class="hamburger__bars hamburger__bars--scrol"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="header__nav--menu">
+                    <a href="#">
+                        <div class="header__nav--menu-element"><span>Blog</span>
+                        </div>
+                    </a>
+                </div>
+                <a class="button menu-article__button" href="get-an-estimate"><span>Get on Estimate</span></a>
+            </nav>
+            <div class="header__nav--mobile">
+                <div class="header__nav--mobile-content">
+                    <a href="">Blog</a>
+                    <a href="get-an-estimate">Get on Estimate</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="container element__padding-top">
+        <div class="col-sm-12 element__width element__padding">
+            <div class="blog__title">
+                <h1>Blog - Marotino INC</h1>
+            </div>
+            <div class="content">
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <div class="eat-this-article">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <?php the_post_thumbnail(); ?>
+                            </div>
+                            <div class="blog__article">
+                                <h3 class="blog__article--title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">Positioning SEO shop in a web-based platform Magento</a></h3>
+                                SEO positioning of online stores based on the Magento platform are actions aimed at increasing the quality of organic traffic obtained from search engines, e.g. Google, which will translate into a real increase in product sales and thus increase the store’s revenue. The US e-commerce market is constantly growing, tens of thousands of online stores are already operating on the US […]
+                            </div>
+                        </div>
+                    </div>
+
+                    <?php endwhile; ?>
+
+                        <?php if (function_exists('page_navi')) { // if expirimental feature is active ?>
+
+                        <?php page_navi(); // use the page navi function ?>
+
+                        <?php } else { // if it is disabled, display regular wp prev & next links ?>
+
+                        <?php } ?>
+
+                        <?php else : ?>
+
+                        <?php endif; ?>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container element__width element__padding">
+            <div class="footer__content">
+                <div class="footer__content--articles footer__content--element">
+                    <a href="web-development.html">Web Development</a>
+                    <a href="mobile-development.html">Mobile Development</a>
+                    <a href="product-design.html">Product Design</a>
+                    <a href="product-development.html">Product Development</a>
+                </div>
+                <div class="footer__content--contact footer__content--element">
+                    <div class="footer__contact--adres">
+                        <h6>United States</h6>
+                        <address>
+                            907 Burlingame Ave Suite 9<br>
+                            Burlingame, CA 94010<br>
+                        </address>
+                        <a href="tel:+17866050087">
+                            +1 786 605 0087
+                        </a>
+                        <a href="mailto:email@email.com">
+                            email@email.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__media">
+                <a href="">
+                    <img class="nav__logo--img" src="images/marotino-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__rate element__width element__width element__padding">
+            <a href="/">
+                <p><strong>Rated 5.1</strong> for Custom Software development, UX/UI design and Web development</p>
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.4.1.min.js"></script> 
+    <script src="scripts/scripts-article.js"></script> 
+</body>
+</html>
